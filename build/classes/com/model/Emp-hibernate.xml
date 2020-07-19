@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.model" >
+	<class name="User" table="admin_account" >
+		<id name="username"	></id>
+		<property name="passwd"  ></property>
+		<property name="group"></property> 
+	</class>
+
+	<class name="AgentForm" table="agent_form">
+		<id name="AgentID"></id>
+		<property name="AgentName"></property>
+		<property name="CreditCardNo"></property>
+		<property name="Sex"></property>
+	</class>
+	
+	
+</hibernate-mapping>
